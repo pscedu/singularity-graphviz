@@ -21,6 +21,9 @@ OUTPUT=truth1.png
 
 ls -lta
 
+chown 1001:116 file.dot
+chown 1001:166 singularity-graphviz-2.44.0.sif
+
 singularity exec singularity-graphviz-2.44.0.sif dot -Tpng "$INPUT" -o "$OUTPUT"
 
 if [ -f $OUTPUT ]; then
