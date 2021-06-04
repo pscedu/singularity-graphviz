@@ -1,6 +1,6 @@
 
 # singularity-graphviz
-![Logo](https://graphviz.org/Resources/app.png)
+![Logo](https://upload.wikimedia.org/wikipedia/en/4/48/GraphvizLogo.png)
 
 Singularity recipe for [graphviz ](https://graphviz.org/).
 
