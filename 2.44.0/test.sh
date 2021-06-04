@@ -19,7 +19,7 @@ EOF
 INPUT=file.dot
 OUTPUT=truth1.png
 
-find . -type f
+ls -lta
 
 singularity exec singularity-graphviz-2.44.0.sif dot -Tpng "$INPUT" -o "$OUTPUT"
 
