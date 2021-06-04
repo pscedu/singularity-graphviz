@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # singularity-graphviz
 Singularity recipe for [graphviz ](https://graphviz.org/).
 
@@ -38,11 +38,5 @@ bash ./test.sh
 ---
 Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).graphviz
-=======
-SIF file
-and the hyperfine  script
-to /opt/packages/hyperfine /1.11.0.
+[icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
 
-Copy the file modulefile.lua to /opt/modules/hyperfine  as 1.11.0.
->>>>>>> 1d4f58518081f8d53c2defcadfc05b05b0314bd1
