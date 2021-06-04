@@ -28,7 +28,7 @@ jobs:
 
            if [ -f ./test.sh ]; then
             echo "Running tests"
-            bash ./test.sh
+            sudo bash ./test.sh
            else
             echo "Test file not found. Skipping tests."
            fi
