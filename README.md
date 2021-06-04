@@ -1,5 +1,7 @@
 
 # singularity-graphviz
+![Logo](https://graphviz.org/Resources/app.png)
+
 Singularity recipe for [graphviz ](https://graphviz.org/).
 
 ## Installing the container on Bridges 2
