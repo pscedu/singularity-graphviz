@@ -2,8 +2,22 @@
 
 set -x
 
-INPUT=./data/file.dot
-OUTPUT=./data/truth1.png
+cat << EOF > file.dot 
+digraph D {
+
+  A [shape=diamond]
+  B [shape=box]
+  C [shape=circle]
+
+  A -> B [style=dashed, color=grey]
+  A -> C [color="black:invis:black"]
+  A -> D [penwidth=5, arrowhead=none]
+
+}
+EOF
+
+INPUT=file.dot
+OUTPUT=truth1.png
 
 find . -type f
 
