@@ -19,11 +19,11 @@ EOF
 INPUT=file.dot
 OUTPUT=truth1.png
 
-singularity exec singularity-graphviz-2.44.0.sif dot -Tpng "$INPUT" -o "$OUTPUT"
-
-if [ -f $OUTPUT ]; then
-        file $OUTPUT
-	exit 0
-else
-	exit 1
-fi
+singularity exec singularity-graphviz-2.44.0.sif dot -help
+#singularity exec singularity-graphviz-2.44.0.sif dot -Tpng "$INPUT" -o "$OUTPUT"
+#if [ -f $OUTPUT ]; then
+#        file $OUTPUT
+#	exit 0
+#else
+#	exit 1
+#fi
