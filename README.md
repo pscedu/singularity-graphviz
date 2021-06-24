@@ -2,17 +2,17 @@
 # singularity-graphviz
 ![Logo](https://upload.wikimedia.org/wikipedia/en/4/48/GraphvizLogo.png)
 
-Singularity recipe for [graphviz ](https://graphviz.org/).
+Singularity recipe for [graphviz](https://graphviz.org/).
 
 ## Installing the container on Bridges 2
 Copy the
 
 * `SIF` file
-* and the `graphviz ` script
+* and the `graphviz` script
 
 to `/opt/packages/graphviz/2.44.0`.
 
-Copy the file `modulefile.lua` to `/opt/modules/graphviz ` as ` 2.44.0`.
+Copy the file `modulefile.lua` to `/opt/modules/graphviz` as ` 2.44.0`.
 
 ## Building the image using the recipe
 
