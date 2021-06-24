@@ -9,8 +9,8 @@ echo "Files in this repository"
 find . -type f
 
 echo "Run graphviz"
-singularity exec singularity-graphviz-2.44.0.sif dot -Tpng "$INPUT" -o "$OUTPUT"
-file $OUTPUT
+#singularity exec singularity-graphviz-2.44.0.sif dot -Tpng "$INPUT" -o "$OUTPUT"
+#file $OUTPUT
 
 if [ -f $OUTPUT ]; then
 	exit 0
