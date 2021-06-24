@@ -12,19 +12,19 @@ Copy the
 
 to `/opt/packages/graphviz/2.44.0`.
 
-Copy the file `modulefile.lua` to `/opt/modules/graphviz` as ` 2.44.0`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/graphviz` as ` 2.44.0.lua`.
 
 ## Building the image using the recipe
 
 ### To build the image locally
-Run the script `build.sh` to build image locally
+Run the script `build.sh` to build image locally.
 
 ```
 bash ./build.sh
 ````
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image remotely
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
