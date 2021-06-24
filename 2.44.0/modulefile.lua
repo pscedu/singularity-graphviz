@@ -2,7 +2,7 @@
 -- GRAPHVIZ 2.44.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
--- "Category: libraries for software applications"
+-- "Category: Other"
 -- "Description: Graphviz is a package of open-source tools initiated by AT&T Labs Research for drawing graphs specified in DOT language scripts."
 -- "Keywords: singularity utilities"
 
