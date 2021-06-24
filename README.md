@@ -1,3 +1,8 @@
+![Status](https://github.com/pscedu/singularity-graphviz/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-graphviz)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-graphviz)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-graphviz)
+![License](https://img.shields.io/github/license/pscedu/singularity-graphviz)
 
 # singularity-graphviz
 ![Logo](https://upload.wikimedia.org/wikipedia/en/4/48/GraphvizLogo.png)
