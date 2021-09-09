@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-graphviz)
 
 # singularity-graphviz
-<img src="https://upload.wikimedia.org/wikipedia/en/4/48/GraphvizLogo.png" width="50%" />
+<img src="https://upload.wikimedia.org/wikipedia/en/4/48/GraphvizLogo.png" width="25%" />
 
 Singularity recipe for [graphviz](https://graphviz.org/).
 
