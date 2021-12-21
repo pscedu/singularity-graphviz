@@ -2,6 +2,9 @@
 
 set -x
 
-tree .
+shopt -s expand_aliases
 
-echo 'digraph { a -> b; }' | singularity exec singularity-graphviz-2.44.0.sif dot
+DIRECTORY=$(pwd)
+alias dot='singularity exec "$DIRECTORY"/singularity-graphviz-2.44.0.sif dot'
+
+echo 'digraph { a -> b; }' | dot
