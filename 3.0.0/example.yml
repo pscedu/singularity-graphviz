@@ -1,0 +1,7 @@
+inputFile: 
+  class: File
+  path: data/file.dot
+
+outputImage:
+  class: File
+  path: output.png

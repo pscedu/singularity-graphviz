@@ -21,10 +21,9 @@ inputs:
     default: output.png
 
 outputs:
-  zarr_image:
-    type: Directory
+  outputImage:
+    type: File
     outputBinding:
-      glob: $(inputs.outputDirectory)
+      glob: $(inputs.outputImage)
 
-baseCommand: ['bioformats2raw']
-stdout: bioformats2raw.out
+baseCommand: ['dot']
