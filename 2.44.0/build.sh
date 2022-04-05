@@ -4,7 +4,7 @@
 # All Rights Reserved.
 
 PACKAGE=graphviz
-VERSION=2.44.0
+VERSION=2.48.0
 IMAGE=singularity-$PACKAGE-$VERSION.sif
 DEFINITION=Singularity
 
