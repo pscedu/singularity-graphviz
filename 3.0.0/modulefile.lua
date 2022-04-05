@@ -13,8 +13,6 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description:  Graphviz is a package of open-source tools initiated by AT&T Labs Research for drawing graphs specified in DOT language scripts.")
 
 help([[
-Description
------------
 GAPHVIZ is a package of open-source tools initiated by AT&T Labs Research for drawing graphs specified in DOT language scripts.
   
 To load the module type
