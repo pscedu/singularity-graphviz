@@ -36,6 +36,22 @@ Run the script `rbuild.sh` to build image remotely.
 bash ./rbuild.sh
 ```
 
+### To build Docker image
+Run the script `dbuild.sh` to build the Docker image. 
+
+```
+bash ./dbuild.sh
+```
+
+## To run the CWL workflow
+To run the workflow, run the command
+
+```
+module load anaconda3
+pip install --user cwl-runner cwltool udocker
+cwl-runner --singularity dot.cwl example.yml
+```
+
 ## To run tests
 To run the available tests, run the command
 
