@@ -7,7 +7,7 @@ From: ubuntu:18.04
     SUPPORT help@psc.edu
     REPOSITORY http://github.com/pscedu/singularity-graphviz
     COPYRIGHT Copyright © 2021-2022 Pittsburgh Supercomputing Center. All Rights Reserved. 
-    VERSION 3.0.0
+    VERSION 2.38.0
 
 %post
     apt update
