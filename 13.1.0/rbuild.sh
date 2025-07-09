@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Copyright © 2021 Pittsburgh Supercomputing Center.
+# Copyright © 2025 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
 PACKAGE=graphviz
-VERSION=9.0.0
+VERSION=13.1.0
 IMAGE=singularity-$PACKAGE-$VERSION.sif
 DEFINITION=Singularity
 
