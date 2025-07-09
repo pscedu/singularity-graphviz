@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=9.0.0
+VERSION=13.1.0
 PACKAGE=graphviz
 TOOL=dot
 DIRECTORY=$(dirname $0)
