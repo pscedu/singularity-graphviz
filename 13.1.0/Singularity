@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: alpine:edge
+
+%labels
+    MAINTAINER icaoberg, luism
+    EMAIL icaoberg@psc.edu, luism@psc.edu
+    SUPPORT help@psc.edu
+    REPOSITORY http://github.com/pscedu/singularity-graphviz
+    COPYRIGHT Copyright 2024 Pittsburgh Supercomputing Center. All Rights Reserved. 
+    VERSION 13.1.0-r1
+
+%post
+    apk update
+    apk add graphviz
+
+%runscript
+    dot "$@"

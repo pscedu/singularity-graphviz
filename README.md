@@ -16,9 +16,9 @@ Copy the
 * `SIF` file
 * and the `graphviz` script
 
-to `/opt/packages/graphviz/2.44.0`.
+to `/opt/packages/graphviz/13.1.0`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/graphviz` as ` 2.44.0.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/graphviz` as ` 13.1.0.lua`.
 
 ## Building the image using the recipe
 
@@ -60,7 +60,7 @@ bash ./test.sh
 ```
 
 ---
-Copyright © 2020-2022 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2025 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
 Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
