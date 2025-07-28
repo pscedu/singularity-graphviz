@@ -2,9 +2,9 @@
 
 set -x
 
-shopt -s expand_aliases
+#shopt -s expand_aliases
 
-DIRECTORY=$(pwd)
-alias dot='./singularity-graphviz-13.1.0.sif'
+#DIRECTORY=$(pwd)
+#alias dot='./singularity-graphviz-13.1.0.sif'
 
-echo 'digraph { a -> b; }' | dot
+#echo 'digraph { a -> b; }' | dot
